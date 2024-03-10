@@ -1,0 +1,16 @@
+- Các cách để CSS:
++ Inline
++ CSS trong file HTML: Internal
++ CSS ở file riêng: External
+- CSS Selector:
++ tên thẻ
++ class
++ id
+- Độ ưu tiên:
++ Inline
++ CSS trong file HTML: Internal
++ CSS ở file riêng: External
+- color
+- kích thước
+- căn chỉnh
+- bố cục

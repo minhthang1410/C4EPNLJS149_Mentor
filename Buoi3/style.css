@@ -1,0 +1,22 @@
+* {
+  /* reset CSS mặc định của trình duyệt */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.test-div {
+  width: 50%;
+  height: 100px;
+  background-color: red;
+}
+
+.test-div1 {
+  width: 50%;
+  height: 100px;
+  background-color: blue;
+}
+
+h1 {
+  text-align: start;
+}

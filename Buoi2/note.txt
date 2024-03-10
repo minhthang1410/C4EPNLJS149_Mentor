@@ -1,0 +1,17 @@
+- Định dạng thẻ HTML:
++ <thẻ mở>nội dung của thẻ<thẻ đóng>
++ <tên thẻ>nội dung của thẻ</tên thẻ>
+- Thẻ HTML sẽ có các thuộc tính - attribute, k cần phải học thuộc, 1 vài thẻ có các thuộc tính đặc trưng dùng nhiều sẽ nhớ
+- Các cấu trúc thẻ HTML thường sử dụng:
++ table
++ danh sách (ul, ol)
++ form
+- Sử dụng devtools
+- Thẻ HTML chia ra 2 loại:
++ block: chiếm nguyên 1 dòng trong trang web
++ inline: kích thước bằng đúng phần nội dung của thẻ
+- Thẻ HTML ngữ nghĩa
+
+- Đường dẫn file trong máy tính
+
+http://127.0.0.1:5500/Buoi2/user/login.html

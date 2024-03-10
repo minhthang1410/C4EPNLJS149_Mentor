@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+#div_login,
+#div_register {
+  border: 1px solid black;
+  width: 50%;
+  padding: 20px;
+}
+
+.login-form-p-tag,
+.register-form-p-tag {
+  color: #c1c2c2;
+  margin-bottom: 5px;
+}
+
+.login-form-title,
+.register-form-title {
+  margin-bottom: 5px;
+}
+
+#div_login form div,
+#div_register form div {
+  margin-bottom: 5px;
+}
+
+#div_login input,
+#div_register input {
+  width: 100%;
+  border-color: #c1c2c2;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+}
+
+#div_login button,
+#div_register button {
+  background-color: #ef3f5e;
+  color: white;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#div_login form,
+#div_register form {
+  border-bottom: 1px solid #c1c2c2;
+  margin-bottom: 10px;
+}

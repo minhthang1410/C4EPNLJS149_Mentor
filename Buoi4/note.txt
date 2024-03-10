@@ -1,0 +1,3 @@
+- Cách đẩy code lên repo mới:
++ git init
++ git add .

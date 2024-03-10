@@ -1,0 +1,8 @@
+Kỳ 1: C4E HTML, CSS, JS
++ Bài kiểm tra
++ Sản phẩm: sẽ code 1 trang web nào đó, demo trang web ở buổi 16
+1. Tìm giao diện web, trang web nào đó đẹp để clone lại.
+2. Chia các trang và chia bố cục, vùng cho các trang đó
+Kỳ 2: ReactJS
+Kỳ 3: NodeJS (ExpressJS), MongoDB (database - cơ sở dữ liệu)
+
