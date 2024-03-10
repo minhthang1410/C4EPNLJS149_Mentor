@@ -1,3 +1,11 @@
 - Cách đẩy code lên repo mới:
 + git init
 + git add .
++ git commit -m "ghi chú thao tác ở đây"
++ git remote add origin https://github.com/minhthang1410/C4EPNLJS149_Mentor.git
++ git branch -M main
++ git push -u origin main
+- Update code sau mỗi buổi:
++ git add .
++ git commit -m "ghi chú"
++ git push
