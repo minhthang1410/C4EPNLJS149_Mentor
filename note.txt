@@ -6,3 +6,5 @@ Kỳ 1: C4E HTML, CSS, JS
 Kỳ 2: ReactJS
 Kỳ 3: NodeJS (ExpressJS), MongoDB (database - cơ sở dữ liệu)
 
+mua cloud, server => digital ocean
+mua domain => tìm free trước => mua bên gg

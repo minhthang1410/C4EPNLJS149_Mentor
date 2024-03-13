@@ -1,0 +1,10 @@
+flex: chia bố cục cho các phần tử nằm trong thẻ html có display: flex
++ flex-container
++ flex-items
+- Mặc định flex, trục chính nằm ngang, trục phụ nằm dọc
+- justify-content: bố cục phần tử theo trục chính
+- align-items: bố cục phần tử theo trục phụ
+- flex-direction: sẽ đổi chiều trục chính
+- Cách sử dụng font awesome:
++ lên gg search từ khoá: fontawesome cdn
++ vào trang cdnjs copy link tag paste vào file html trang web của mình
