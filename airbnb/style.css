@@ -59,3 +59,11 @@ a {
   border-bottom: 1px solid #c1c2c2;
   margin-bottom: 10px;
 }
+
+.a {
+  color: red;
+}
+
+.a {
+  color: green;
+}

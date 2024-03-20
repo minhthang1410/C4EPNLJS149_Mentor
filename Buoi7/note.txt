@@ -1,0 +1,20 @@
+- Biến số: nơi lưu trữ giá trị
+- Từ khoá khai báo biến: let, var, const
+- Quy tắc đặt tên: snake_case và tên biến phải có ý nghĩa
++ age = 19
++ fullname = "Lưu Minh Thắng"
++ date_of_birth = "1.1.2024"
+- Kiểu dữ liệu:
++ number: số nguyên, số thực
++ string: chuỗi ký tự nói chung (nằm trong nháy kép hoặc nháy đơn)
++ boolean: kiểu luận lý (đúng hoặc sai, true hoặc false)
+- Cách kiểm tra kiểu dữ liệu: dùng typeof
+- Các toán tử thường gặp:
++ Toán tử số học: + - * / % ** ++ --
++ Toán tử gán: +=. -=,...
++ Toán tử logic
++ Toán tử so sánh
+- Trong js sẽ có các hàm có sẵn hay sử dụng (built-in function):
++ console.log
++ alert
++ promp.....
