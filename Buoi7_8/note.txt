@@ -1,0 +1,106 @@
+----------- Biến số và kiểu dữ liệu
+- Biến số là nơi lưu trữ giá trị
++ Để khai báo biến sử dụng từ khoá let hoặc var
++ Hằng số là biến số không có thể thay đổi được (khai báo bằng từ khoá const)
+- Kiểu dữ liệu:
++ number (số nguyên và số thực)
++ string: tập nhiều các ký tự chữ hoặc số nằm trong cặp dấu nháy kép hoặc nháy đơn. Để chèn giá trị của biến vào trong chuỗi thì ta sử dụng cú pháp template strings
+`${tên biến} chuỗi bình thường`
++ boolean: kiểu luận lý, chỉ có 2 giá trị là true hoặc false
++ Cách kiểm tra kiểu dữ liệu: dùng typeof
+Code:
+let ten = "Thắng";
+let age = 25;
+let class_name = "C4EJS149";
+const pi = 3.14;
+let is_sunday = true;
+let is_monday = false;
+console.log(typeof ten);
+console.log(typeof age);
+console.log(typeof is_sunday);
++ Chuyển kiểu dữ liệu string sang số:
+parseInt()
+parseFloat()
+----------- Các thao tác với biến số
+- Toán tử số học:
++ number:
+Có các phép toán như toán học bình thường, ngoài ra có thêm các phép toán lạ như là chia lấy dư,...
+let a = 5;
+let b = 2;
+console.log(a + b);
+console.log(a - b);
+console.log(a * b);
+console.log(a / b);
+console.log(a % b); // phép chia lấy dư là dấu %
++ string: chỉ có phép cộng và phép cộng giữa 2 chuỗi là việc nối 2 chuỗi đó lại với nhau
+let first_name = "Thắng";
+let last_name = "Lưu";
+let full_name = first_name + " " + last_name;
+console.log(full_name);
+- Quy tắc đặt tên: snake_case và tên biến phải có ý nghĩa
++ age = 19
++ fullname = "Lưu Minh Thắng"
++ date_of_birth = "1.1.2024"
+- Trong JS sẽ có các hàm có sẵn hay sử dụng (built-in function):
++ console.log
++ alert
++ promp.....
+- Toán tử so sánh:
++ number: <, <=, >, >=, ==, !=
+Kết quả của phép so sánh sẽ luôn có giá trị true hoặc false
+let a = 5;
+let b = 5;
+console.log(a < b);
+console.log(a > b);
+console.log(a == b);
++ string: sẽ so sánh theo bảng chữ cái
+console.log("a" < "b");
+----------- Câu điều kiện
+- Kết quả của việc kết hợp các biểu thức logic sẽ dựa 2 phép logic:
++ And (&&): phép và
++ Or (||): phép hoặc
+- AND: A AND B sẽ đúng khi A và B đều đúng, chỉ cần 1 trong 2 sai thì A AND B sẽ sai
+- OR: A OR B sẽ đúng khi 1 trong 2 A và B đúng, sẽ sai khi cả 2 A và B đều sai.
++ Trường hợp 1 điều kiện
+if (điều kiện) {
+    các câu lệnh thực hiện khi điều kiện đúng
+} else {
+    các câu lệnh thực hiện khi điều kiện sai
+}
++ Trường hợp từ 2 điều kiện trở lên
+if (điều kiện 1) {
+    các câu lệnh thực hiện khi điều kiện 1 đúng
+} else if (điều kiện 2) {
+    các câu lệnh thực hiện khi điều kiện 2 đúng
+} else {
+    các câu lệnh thực hiện khi tất cả các điều kiện trên sai
+}
+let a = 0;
+
+if (a > 0) {
+  console.log(`${a} là số dương`);
+} else if (a == 0) {
+  console.log(`${a} là số 0`);
+} else {
+  console.log(`${a} là số âm`);
+}
+----- Loop (for, while, do while)
+- Vòng lặp sẽ thực hiện 1 công việc lặp đi lặp lại trong chương trình
+- Đặc điểm chung của 3 vòng là có 3 biểu thức:
++ Biểu thức 1: khởi tạo biến lặp
++ Biểu thức 2: điều kiện lặp
++ Biếu thức 3: thao tác với biến lặp ở mỗi lần lặp (tăng hoặc giảm giá trị)
+- vòng lặp for
+for (bt1; bt2; bt3) {
+    code thực hiện ở mỗi lần lặp
+}
+VD:
+for (let i = 0; i < 10; i++) {
+  console.log("Hello");
+}
+
+let i = 0;
+while (i < 10) {
+  console.log("Hello");
+  i++;
+}
