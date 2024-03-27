@@ -1,0 +1,27 @@
+1. Sửa bài test
+2. Update tình hình làm sản phẩm, giao task mới
+3. Sửa bài tập về nhà
+4. Thực hành bài tập vòng lặp, mảng 
+------ Array (Mảng)
+- Mảng là 1 loại dữ liệu lưu trữ nhiều phần tử, sẽ giống 1 danh sách, sẽ có 4 thao tác với mảng (CRUD):
++ C: Create (khai báo mảng, thêm phần tử mới vào mảng)
++ R: Read
++ U: Update
++ D: Delete
+let students = ["Chí", "Đăng", "Ngọc", "Đạt"];
+console.log(students);
+// Create
+students.push("Hiếu"); // push thêm phần tử vào cuối mảng
+students.push("Đồng");
+students.push("Hùng");
+console.log(students);
+// Read
+console.log(students[5]);
+// Update
+students[0] = "Mẫn Minh Chí";
+console.log(students);
+// Delete
+students.pop(); // pop xoá phần tử ở cuối mảng
+console.log(students);
+students.splice(0, 3); // splice sẽ xoá ở vị trí bất kỳ, có 2 tham số start là vị trí bắt đầu xoá, deleteCount là số phần tử sẽ xoá
+console.log(students);
