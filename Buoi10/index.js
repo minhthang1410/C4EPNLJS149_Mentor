@@ -94,11 +94,10 @@ function login(username, password) {
   for (let i = 0; i < users.length; i++) {
     if (username == users[i].username && password == users[i].password) {
       console.log("Đăng nhập thành công");
-      break;
-    } else {
-      console.log("Sai username hoặc password !");
+      return;
     }
   }
+  console.log("Sai username hoặc password !");
 }
 
 function register(username, passsword, retype_password) {
@@ -145,7 +144,7 @@ function change_password(
   new_password,
   retype_new_password
 ) {
-  if (validate_user_input(username, old_password)) {
+  if (validate_user_input(username, new_password)) {
     for (let user of users) {
       if (
         user.password == old_password &&
@@ -155,23 +154,24 @@ function change_password(
       ) {
         user.password = new_password;
         console.log("Thay đổi mật khẩu thành công");
-      } else {
-        console.log("Lỗi");
+        return;
       }
     }
+    console.log("Lỗi");
   }
 }
 
-for (let user of users) {
-  console.log(user);
-}
+// for (let user of users) {
+//   console.log(user);
+// }
 
 // console.log(is_username_exist("thang10"));
-console.log(users);
+// console.log(users);
 let username = "thang10";
 let password = "123123123";
 let retype_password = "123123123";
+login("thang3", "123123");
 // register(username, password, retype_password);
 // console.log(users);
-change_password("thang1", "123123", "12345678", "12345678");
-console.log(users);
+// change_password("thang1", "123123", "12345678", "12345678");
+// console.log(users);
