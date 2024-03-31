@@ -1,0 +1,57 @@
+------ Object
+- Khi lưu trữ giá trị biến phức tạp thì sử object
+- Object sẽ lưu giá trị theo cặp key:value
+- Object cũng có các thao tác CRUD
+let teacher = {
+  name: "Thắng",
+  age: 25,
+  subjects: "python, web",
+  school: "MindX",
+};
+console.log(teacher);
+// Create
+teacher.location = "HCM";
+console.log(teacher);
+// Read
+console.log(teacher.subjects);
+// Update
+teacher.age += 1;
+console.log(teacher);
+// Delete
+delete teacher.school;
+console.log(teacher);
+------- Hàm (Function)
+- Hàm là những khối code thực hiện 1 công việc cụ thể, hàm khai báo bằng từ khoá function. Sử dụng hàm có lợi ích như sau:
++ Code dễ đọc
++ Code có thể tái sử dụng đồng thời dễ bảo trì code
+- Các loại hàm:
++ Hàm không có tham số (trong dấu hàm ở chỗ khai báo để trống) và không có giá trị trả về (k có từ khoá return)
+VD:
+function hello() {
+  console.log("Hello world !!!");
+}
+hello();
++ Hàm có tham số và không có giá trị trả về (k có từ khoá return)
+VD:
+function hello(name) {
+  console.log(`Hello ${name} !!!`);
+}
+hello("Thắng");
++ Hàm không có tham số (trong dấu hàm ở chỗ khai báo để trống) và có giá trị trả về (có từ khoá return)
+VD:
+function hello() {
+  return "Hello world !!!";
+}
+let str = hello();
+console.log(str);
++ Hàm có tham số và có giá trị trả về (có từ khoá return)
+VD:
+function cong(a, b) {
+  return a + b;
+}
+let res = cong(5, 10);
+console.log(res);
+----------- Bài tập
+1. Thực hiện code nhập và lưu trữ danh sách học sinh lưu thông tin của từng học sinh được nhập từ trang web
+2. Thực hiện code tính năng đăng nhập, đăng ký, đổi mật khẩu cho người dùng (khai báo danh sách người dùng, code các hàm tương ứng với từng chức năng, input chỉ cần truyền tham số trực tiếp)
+3. Thực hiện truy xuất dữ liệu với data cho sẵn
