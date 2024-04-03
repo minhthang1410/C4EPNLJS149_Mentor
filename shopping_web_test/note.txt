@@ -1,0 +1,10 @@
+   <div class="card">
+      <div class="image-container">
+        <img src="images/matrix-1999-1.jpg" />
+      </div>
+      <div class="container">
+        <h5 class="product-name">MATRIX 1999 DECK</h5>
+        <h6><b>Price: </b>780.000đ - 1.470.000đ</h6>
+        <button>Thêm vào giỏ hàng</button>
+      </div>
+    </div>
