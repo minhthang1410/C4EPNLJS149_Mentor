@@ -1,3 +1,5 @@
+import { create_element } from "./utils.js";
+
 let products = {
   data: [
     {
@@ -77,20 +79,20 @@ let products = {
       price: "780.000đ - 1.670.000đ",
       image: "images/son-nguyen.jpg",
     },
+
+    {
+      name: "Test new product",
+      price: "new price",
+      image: "404",
+    },
+
+    {
+      name: "Test new product",
+      price: "new price",
+      image: "404",
+    },
   ],
 };
-
-function create_element(tag_name, attributes) {
-  let element = document.createElement(tag_name);
-
-  if (attributes) {
-    for (let key in attributes) {
-      element[key] = attributes[key];
-    }
-  }
-
-  return element;
-}
 
 function display_product(data) {
   for (let product of data) {
@@ -135,3 +137,11 @@ function display_product(data) {
 }
 
 display_product(products.data);
+
+const search_input = document.getElementById("search_input");
+
+console.log(search_input);
+search_input.addEventListener("keydown", (e) => {
+  let search_input_value = document.getElementById("search_input").value;
+  console.log(search_input_value);
+});

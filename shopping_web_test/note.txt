@@ -8,3 +8,8 @@
         <button>Thêm vào giỏ hàng</button>
       </div>
     </div>
+
+
+1. Hoàn thiện đăng nhập đăng ký
+2. Thông báo cho người dùng k sử dụng alert
+3. Chức năng tìm kiếm

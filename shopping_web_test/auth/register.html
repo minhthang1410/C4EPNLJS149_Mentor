@@ -10,11 +10,13 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="auth.css" />
   </head>
   <body
     class="d-flex justify-content-center align-items-center"
     style="height: 100vh"
   >
+    <div id="noti"></div>
     <form id="register_form" class="border border-3 border-black p-4">
       <h1>Register</h1>
       <div class="mb-3">
@@ -26,6 +28,13 @@
       <div class="mb-3">
         <input type="password" id="password" placeholder="Password" />
       </div>
+      <div class="mb-3">
+        <input
+          type="password"
+          id="retype_password"
+          placeholder="Retype password"
+        />
+      </div>
       <button type="submit" class="btn btn-primary w-100">Register</button>
       <a href="login.html">Login</a>
     </form>
@@ -34,6 +43,6 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
-    <script src="register.js"></script>
+    <script src="register.js" type="module"></script>
   </body>
 </html>

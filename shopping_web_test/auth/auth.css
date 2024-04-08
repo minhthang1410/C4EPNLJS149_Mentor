@@ -1,0 +1,15 @@
+#noti {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  color: white;
+  z-index: 999999;
+}
+
+#noti.show {
+  opacity: 1;
+}
