@@ -140,8 +140,20 @@ display_product(products.data);
 
 const search_input = document.getElementById("search_input");
 
-console.log(search_input);
-search_input.addEventListener("keydown", (e) => {
-  let search_input_value = document.getElementById("search_input").value;
-  console.log(search_input_value);
+search_input.addEventListener("keypress", (e) => {
+  if (e.key === "Enter") {
+    let search_input_value = document.getElementById("search_input").value;
+    let list_product = document.getElementsByClassName("card");
+    let product_names = document.getElementsByClassName("product-name");
+
+    for (let i = 0; i < list_product.length; i++) {
+      if (
+        product_names[i].innerText.includes(search_input_value.toUpperCase())
+      ) {
+        list_product[i].style = "display: block";
+      } else {
+        list_product[i].style = "display: none";
+      }
+    }
+  }
 });

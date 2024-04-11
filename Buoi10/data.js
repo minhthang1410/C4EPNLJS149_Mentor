@@ -4787,3 +4787,18 @@ let data = {
   status: true,
   totalResultCount: "Over 1,000 places",
 };
+
+// dùng vòng lặp truy xuất các dữ liệu sau: hình ảnh tất cả của khách sạn, city, price, rating
+console.log(data.data.homes[0]);
+console.log(data.data.homes[2]);
+// city
+console.log(data.data.homes[1].listing.city);
+// rating
+console.log(data.data.homes[1].listing.avgRatingLocalized);
+console.log(
+  data.data.homes[3].pricingQuote.structuredStayDisplayPrice.primaryLine.price
+);
+
+for (let i = 0; i < data.data.homes[1].listing.contextualPictures.length; i++) {
+  console.log(data.data.homes[1].listing.contextualPictures[i].picture);
+}
