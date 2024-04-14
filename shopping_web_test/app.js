@@ -131,6 +131,13 @@ function display_product(data) {
     div_container.appendChild(btn);
     div_card.appendChild(div_image_container);
     div_card.appendChild(div_container);
+    div_card.setAttribute("data-bs-toggle", "modal");
+    div_card.setAttribute("data-bs-target", "#product_modal");
+    div_card.addEventListener("click", () => {
+      document.getElementById("product_name").innerText = product.name;
+      document.getElementById("product_image").src = product.image;
+      document.getElementById("product_price").innerText = product.price;
+    });
 
     document.getElementById("products").appendChild(div_card);
   }
