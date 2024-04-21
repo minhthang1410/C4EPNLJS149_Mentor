@@ -27,3 +27,9 @@ export function show_noti(message, success) {
     noti.classList.remove("show");
   }, 2000);
 }
+
+document.getElementById("test").innerText = "nội dung mới";
+document.getElementById("test").style = "width: 100%; height: 100px;";
+
+console.log(the_html.innerText);
+console.log(the_html.style);

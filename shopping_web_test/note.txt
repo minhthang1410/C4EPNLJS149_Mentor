@@ -9,6 +9,11 @@
       </div>
     </div>
 
+- Dùng js tương tác trang web => html
+DOM tới phần tử HTML cần thay đổi hay tương tác
+DOM tới bằng tên thẻ
+DOM tới bằng tên class
+DOM tới bằng tên id
 
 1. Hoàn thiện đăng nhập đăng ký
 2. Thông báo cho người dùng k sử dụng alert

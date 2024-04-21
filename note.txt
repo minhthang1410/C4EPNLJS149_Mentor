@@ -8,3 +8,11 @@ Kỳ 3: NodeJS (ExpressJS), MongoDB (database - cơ sở dữ liệu)
 
 mua cloud, server => digital ocean
 mua domain => tìm free trước => mua bên gg
+
+- sử dụng git:
++ git init
++ git add .
++ git commnit -m "up code"
++ git remote add origin https://github.com/minhthang1410/shopping.git
++ git branch -M main
++ git push -u origin main
